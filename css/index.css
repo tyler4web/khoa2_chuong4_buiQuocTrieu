@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  background-color: white;
+  letter-spacing: 1px;
+}
+
+/* HEADER */
+header {
+  background-color: black;
+  opacity: 70%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+header .logo {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+header .logo span {
+  color: #00cdce;
+}
+
+nav {
+  /* border: 1px solid red; */
+}
+
+nav ul {
+  display: flex;
+  /* border: 1px solid green; */
+  list-style: none;
+  justify-content: space-around;
+}
+
+nav li {
+  /* border: 1px solid orange; */
+  border-bottom: 1.5px solid white;
+  margin: 1rem;
+}
+
+nav a {
+  color: white;
+  display: flex;
+  padding: 8px 12px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+
+  /* border: 1px solid blue; */
+}
