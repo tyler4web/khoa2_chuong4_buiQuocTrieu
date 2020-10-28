@@ -86,7 +86,7 @@ nav a {
 
 .carousel__item {
   width: 100%;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   height: 100%;
 }
 
@@ -99,7 +99,7 @@ nav a {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 5px;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 
 .carousel__item p:last-of-type {
