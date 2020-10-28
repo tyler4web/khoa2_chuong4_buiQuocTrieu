@@ -70,3 +70,43 @@ nav a {
 
   /* border: 1px solid blue; */
 }
+
+/* CAROUSEL */
+#carousel {
+  background-image: url(../img/b4.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__item {
+  width: 100%;
+  border: 1px solid yellow;
+}
+
+.carousel__item p {
+  text-align: center;
+}
+
+.carousel__item p:first-of-type {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  border: 1px solid orange;
+}
+
+.carousel__item p:last-of-type {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.carousel .owl-theme .owl-dots .owl-dot {
+  color: white;
+}
