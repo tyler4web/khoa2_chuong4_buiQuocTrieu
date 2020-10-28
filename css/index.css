@@ -20,6 +20,23 @@ body {
   letter-spacing: 1px;
 }
 
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-bottom: 1.3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.3rem;
+  color: #00cdce;
+  letter-spacing: 2px;
+}
+
+p {
+  line-height: 25px;
+}
 /* HEADER */
 header {
   background-color: black;
@@ -110,4 +127,37 @@ nav a {
 
 .carousel .owl-theme .owl-dots .owl-dot {
   color: white;
+}
+
+/* ABOUT */
+
+#about {
+  text-align: center;
+  padding: 2.5rem;
+}
+.about__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2rem 2rem;
+  /* border: 1px solid orange; */
+}
+
+.about__icon {
+  /* border: 1px solid red; */
+  padding: 0.5rem;
+}
+.about__icon i {
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+.about__icon p {
+  padding-top: 15px;
+}
+
+.about__us {
+  /* border: 1px solid orange; */
+  padding-bottom: 10px;
 }
