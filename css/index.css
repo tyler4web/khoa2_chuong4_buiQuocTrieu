@@ -87,6 +87,7 @@ nav a {
 .carousel__item {
   width: 100%;
   border: 1px solid yellow;
+  height: 100%;
 }
 
 .carousel__item p {
