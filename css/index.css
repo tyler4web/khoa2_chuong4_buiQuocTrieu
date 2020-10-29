@@ -36,6 +36,18 @@ h3 {
 
 p {
   line-height: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 15px 20px;
+  background-color: black;
+  color: #00cdce;
+  font-weight: 500;
+  letter-spacing: 1.5px;
 }
 /* HEADER */
 header {
@@ -160,4 +172,69 @@ nav a {
 .about__us {
   /* border: 1px solid orange; */
   padding-bottom: 10px;
+}
+
+/* STATS */
+#stats {
+  padding: 2.5rem 5rem;
+  background-color: #00cdce;
+  text-align: center;
+}
+
+#stats h2 {
+  padding-bottom: 50px;
+}
+.stats__countUp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stats__countUp .counter {
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 6px;
+  padding-bottom: 25px;
+}
+
+.stats__countUp p:last-of-type {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* BLOG  */
+#blog {
+  padding: 3rem 0;
+}
+
+#blog h2 {
+  padding-bottom: 40px;
+}
+
+.blog__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.blog__item {
+  width: 33%;
+  margin: 0 15px;
+  background-color: #efefef;
+  border-top: 5px solid #00cdce;
+}
+
+.blog__item img {
+  width: 100%;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.blog__item p {
+  padding-bottom: 20px;
+}
+
+.blog__text {
+  padding: 0 15px 15px 15px;
 }
