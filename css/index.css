@@ -48,6 +48,7 @@ button {
   color: #00cdce;
   font-weight: 500;
   letter-spacing: 1.5px;
+  border: none;
 }
 /* HEADER */
 header {
@@ -208,14 +209,14 @@ nav a {
 }
 
 #blog h2 {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .blog__content {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 100px;
+  padding: 0 100px 3rem 100px;
 }
 
 .blog__item {
@@ -237,4 +238,45 @@ nav a {
 
 .blog__text {
   padding: 0 15px 15px 15px;
+}
+
+.blog__more {
+  display: flex;
+}
+
+.blog__left,
+.blog__right {
+  width: 50%;
+}
+
+.blog__left img {
+  display: block;
+  width: 100%;
+}
+
+.blog__right {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00cdce;
+}
+
+.blog__right p {
+  padding-bottom: 25px;
+  color: white;
+}
+
+/* PORTFOLIO */
+#portfolio {
+  text-emphasis: center;
+  padding: 25px 100px;
+}
+
+.portfolio__gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
 }
