@@ -329,3 +329,50 @@ nav a {
   border: none;
   width: 150px;
 }
+
+/* AGENTS */
+#agent {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.agent__content {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.agent__content img {
+  display: block;
+}
+
+.agent__contact {
+  background-color: #363636;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.agent__contact h3 {
+  padding: 20px 0 0 0;
+}
+
+.agent__contact p {
+  padding-bottom: 10px;
+}
+
+.agent__icon {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+.agent__contact i {
+  border: 1.5px solid white;
+  /* margin-right: 20px; */
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
