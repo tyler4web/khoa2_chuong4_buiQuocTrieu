@@ -376,3 +376,64 @@ nav a {
   text-align: center;
   line-height: 30px;
 }
+
+/* MAP */
+.map {
+  border: 3px solid #00cdce;
+  background-color: #bbbbbb;
+  padding: 20px;
+}
+
+/* CONTACT */
+#contact {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact {
+  padding: 70px 0 70px 0;
+}
+#contact h2 {
+  padding-bottom: 50px;
+}
+#contact form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 15px 30px;
+}
+
+.contact__form textarea {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.contact__form button {
+  background-color: black;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.contact__form input {
+  background-color: #efefef;
+  border: none;
+  border-bottom: 3px solid #b9b9b9;
+  padding: 5px 20px;
+  color: #999999;
+  font-weight: 600;
+}
+
+.contact__form textarea {
+  background-color: #efefef;
+  border: none;
+  border-bottom: 3px solid #b9b9b9;
+  padding: 10px 20px;
+  color: #999999;
+  font-weight: 600;
+  resize: none;
+}
+
+.contact__form button {
+  color: white;
+  padding: 0;
+}
