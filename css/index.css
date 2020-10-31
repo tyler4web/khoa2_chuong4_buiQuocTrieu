@@ -437,3 +437,27 @@ nav a {
   color: white;
   padding: 0;
 }
+/* FOOTER */
+
+footer {
+  background-color: #00cdce;
+  color: white;
+  padding: 30px 50px 30px 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer i {
+  border: 1.5px solid white;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 5px;
+}
+
+footer span {
+  color: red;
+  font-weight: 400;
+}
