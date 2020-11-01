@@ -42,8 +42,8 @@ p {
 }
 
 button {
-  font-size: 1.2rem;
-  padding: 15px 20px;
+  font-size: 15px;
+  padding: 10px 20px;
   background-color: black;
   color: #00cdce;
   font-weight: 500;
@@ -61,7 +61,7 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
-  width: 100%;
+  right: 0;
 }
 
 header .logo p {
@@ -114,16 +114,20 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  /* border: 1px solid red; */
 }
 
 .carousel__item {
   width: 100%;
-  /* border: 1px solid yellow; */
-  height: 100%;
+  /* border: 1px solid blue; */
+  /* height: 100%; */
+  padding: 50px;
 }
 
 .carousel__item p {
   text-align: center;
+  width: 100%;
 }
 
 .carousel__item p:first-of-type {
@@ -131,7 +135,8 @@ nav a {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 5px;
-  /* border: 1px solid orange; */
+  border: 1px solid orange;
+  padding-bottom: 20px;
 }
 
 .carousel__item p:last-of-type {
@@ -148,7 +153,7 @@ nav a {
 
 #about {
   text-align: center;
-  padding: 2.5rem;
+  padding: 4rem;
 }
 .about__item {
   display: flex;
@@ -164,8 +169,9 @@ nav a {
 }
 .about__icon i {
   border: 1px solid black;
-  padding: 25px;
+  padding: 30px;
   border-radius: 50%;
+  font-size: 1.5rem;
 }
 
 .about__icon p {
@@ -207,11 +213,11 @@ nav a {
 
 /* BLOG  */
 #blog {
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 #blog h2 {
-  padding-bottom: 25px;
+  padding-bottom: 3rem;
 }
 
 .blog__content {
@@ -251,9 +257,24 @@ nav a {
   width: 50%;
 }
 
+.blog__left {
+  position: relative;
+}
+
 .blog__left img {
   display: block;
   width: 100%;
+}
+
+.blog__left i {
+  position: absolute;
+  top: 180px;
+  left: 270px;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 206, 206, 0.541);
+  padding: 16px;
+  border-radius: 50%;
 }
 
 .blog__right {
