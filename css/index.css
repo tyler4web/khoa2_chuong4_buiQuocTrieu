@@ -20,6 +20,9 @@ body {
   letter-spacing: 1px;
 }
 
+button {
+  cursor: pointer;
+}
 h2 {
   font-size: 2.5rem;
   letter-spacing: 2px;
@@ -50,6 +53,7 @@ button {
   letter-spacing: 1.5px;
   border: none;
   transition: all 0.5s;
+  border: 1px solid black;
 }
 button:hover {
   background-color: white;
@@ -133,6 +137,12 @@ nav a {
   transform: translateY(-70%);
   font-size: 100px;
   padding: 10px;
+  pointer-events: none;
+}
+
+#carousel .owl-prev,
+.owl-next {
+  pointer-events: auto;
 }
 
 .carousel__item {
@@ -161,12 +171,16 @@ nav a {
   font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 2px;
+  padding-bottom: 10px;
 }
 
 .carousel .owl-theme .owl-dots .owl-dot {
   color: white;
 }
 
+.carousel .owl-theme .owl-dots {
+  margin-top: 20px;
+}
 /* ABOUT */
 
 #about {
@@ -287,13 +301,15 @@ nav a {
 
 .blog__left i {
   position: absolute;
-  top: 180px;
-  left: 270px;
+
   font-size: 30px;
   color: white;
   background-color: rgba(0, 206, 206, 0.541);
   padding: 16px;
   border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .blog__right {
@@ -322,6 +338,10 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 15px;
+}
+
+.portfolio__gallery img {
+  width: 100%;
 }
 
 /* SUBSCRIBE */
@@ -502,6 +522,10 @@ nav a {
   color: white;
   padding: 0;
 }
+
+/* .contact__form input::focus {
+  opacity: 0;
+} */
 /* FOOTER */
 
 footer {
